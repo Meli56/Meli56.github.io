@@ -1,43 +1,12 @@
-@use "./utils/reset";
+@use "utils/mixins";
+@use "utils/variables";
+@use "base/reset";
+@use "base/fonts";
+
+@use "modules/molecules/navbar";
+@use "modules/molecules/section";
+
+@use "modules/organism/frame";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@use "modules/atoms/image";

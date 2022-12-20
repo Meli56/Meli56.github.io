@@ -1,0 +1,222 @@
+$marin-blue: #4C40F7;
+$pink:#FF2D59;
+$green:#4ADB61;
+$yellow: #FFCC00;
+$blue:#007BFF;
+$orange:#FF6800;
+
+@use "../../utils/variables";
+body{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* Text/Grey */
+  color: #6B6B6B;
+}
+
+.content{
+  display: flex;
+  margin: 0 160px 200px;
+
+}
+
+
+h2{
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.4px;
+  color: #111029;
+
+}
+
+h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+
+  text-align: center;
+  letter-spacing: -0.1px;
+
+  color: #111029;
+}
+
+h6{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  margin: 0 160px 200px;
+  justify-content: center;
+}
+
+
+
+.sect-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+
+@media (max-width:800px) {
+  h2{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #111029;
+
+  }
+  .sect-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+  .content{
+    flex-direction: column-reverse;
+    margin: 0 30px 200px;
+    gap: 100px;
+  }
+
+  .content2{
+    margin: 0 30px 200px;
+  }
+}
+.card {
+  
+    width: 352px;
+    height: 458px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+    gap: 44px;
+    box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
+    border-radius: 20px;
+}
+
+.card:hover{
+  color:#fff;
+  cursor: default;
+
+}
+
+.card-1:hover .card{
+  background-color: $marin-blue;
+}
+
+.card-2:hover .card{
+  background-color: $pink;
+}
+
+.card-3:hover .card{
+  background-color: $green;
+}
+.card-4:hover .card{
+  background-color: $yellow;
+}
+.card-5:hover .card{
+  background-color: $blue;
+}
+.card-6:hover .card{
+  background-color: $orange;
+}
+
+.card:hover .card-fleche{
+  background-color: #fff;
+}
+
+.card:hover .card-ellipse {
+  &_1 {
+    background: #fff;
+  }
+  &_2 {
+    background: #fff;
+  }
+  &_3 {
+    background: #fff;
+  }
+  &_4 {
+    background: #fff;
+  }
+  &_5 {
+    background: #fff;
+  }
+  &_6 {
+    background: #fff;
+  }
+}
+
+.card:hover .fill{
+  &_1{
+    fill: $marin-blue;
+  }
+  &_2{
+    fill: $pink;
+  }
+  &_3{
+    fill: $green;
+  }
+  &_4{
+    fill: $yellow;
+  }
+  &_5{
+    fill: $blue;
+  }
+  &_6{
+    fill: $orange;
+  }
+
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+  .card{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+    gap: 44px;
+
+    background: #FFFFFF;
+    box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
+    border-radius: 20px;
+
+  }
+}
