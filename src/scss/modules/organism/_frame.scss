@@ -7,7 +7,7 @@ $orange:#FF6800;
 
 @use "../../utils/variables";
 body{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -63,8 +63,38 @@ h6{
   justify-content: center;
 }
 
+.sect3 {
+  background-color: #F9F9FD;
+}
+
+.content3{
+  display: flex;
+  flex-direction: row;
+  gap:80px;
+  padding:  99px 160px;
+  justify-content: center;
+}
+
+.sect3-1{
+  width: 580px;
+  height: 690px;
+  display: flex;
+  gap:40px;
+  flex-wrap: wrap;
+}
 
 
+
+.sect3-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+
+  width: 460px;
+  height: 702px;
+}
 .sect-card{
   display: flex;
   flex-direction: row;
