@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
 $marin-blue: #4C40F7;
 $pink:#FF2D59;
 $green:#4ADB61;
@@ -5,7 +7,7 @@ $yellow: #FFCC00;
 $blue:#007BFF;
 $orange:#FF6800;
 
-@use "../../utils/variables";
+
 body{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -14,6 +16,7 @@ body{
   line-height: 32px;
   /* Text/Grey */
   color: #6B6B6B;
+
 }
 
 .content{
@@ -63,17 +66,22 @@ h6{
   justify-content: center;
 }
 
-.sect3 {
-  background-color: #F9F9FD;
-}
-
 .content3{
   display: flex;
   flex-direction: row;
   gap:80px;
   padding:  99px 160px;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
+
+.sect3 {
+
+  background-color: #F9F9FD;
+}
+
+
 
 .sect3-1{
   width: 580px;
@@ -103,8 +111,42 @@ h6{
   padding: 0px;
   gap: 32px;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
+.content4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 160px;
+  gap: 10px;
+
+  width: 1440px;
+  height: 547.51px;
+
+  background: #FE9602;
+}
+
+.sect4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;;
+  gap:44px;
+  width: 723px;
+}
+
+.courbes{
+  position: absolute;
+}
+
+.content5{
+  display: flex;
+  flex-direction: column;
+  margin: 160px 200px;
+  justify-content: center;
+}
 
 @media (max-width:800px) {
   h2{
