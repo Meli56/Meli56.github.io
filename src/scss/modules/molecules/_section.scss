@@ -124,9 +124,60 @@ $orange:#FF6800;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.question{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #FFFFFF;
+  justify-content: space-between;
+  padding:32px;
 
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
 
+}
+.question2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #FFFFFF;
+  justify-content: space-between;
+  padding:32px;
+  padding-bottom: 0;
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  border-bottom: none;
 
+  border-radius: 8px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+
+}
+
+.question3{
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #FFFFFF;
+  justify-content: space-between;
+  padding:32px;
+  padding-top:0px;
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  border-top: none;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+
+.trait{
+  border: 1px solid #D8D8D8;
+  width: 100%;
+  margin: 28px 0px;
+}
+
+.fleche-bas{
+  cursor:pointer;
+}
 
 .card-ellipse{
   // border-radius: 50px;

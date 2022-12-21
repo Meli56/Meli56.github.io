@@ -48,6 +48,19 @@ h3{
   color: #111029;
 }
 
+
+h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  color: #111029;
+}
 h6{
   font-style: normal;
   font-weight: 600;
@@ -142,6 +155,29 @@ h6{
   justify-content: center;
 }
 
+
+.all-question{
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+
+.bulle-bleue{
+  position:absolute; 
+  z-index:-1; 
+  margin-top:160px
+}
+
+.content6{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 160px;
+  justify-content: center;
+  gap: 60px;
+  background: #F9F9FD;
+}
+
+
 @media (max-width:800px) {
   h2{
 
@@ -175,18 +211,17 @@ h6{
   }
 }
 .card {
-  
-    width: 352px;
-    height: 458px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 44px;
-    gap: 44px;
-    box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
-    border-radius: 20px;
+  width: 352px;
+  height: 458px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 44px;
+  gap: 44px;
+  box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
+  border-radius: 20px;
 }
 
 .card:hover{
@@ -264,7 +299,22 @@ h6{
 }
 
 
+.card-testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 32px 44px;
+  gap: 24px;
 
+  width: 352px;
+  height: 357.31px;
+
+
+  background: #FFFFFF;
+  box-shadow: -15px 20px 70px rgba(76, 64, 247, 0.2);
+  border-radius: 20px;
+}
 
 
 
