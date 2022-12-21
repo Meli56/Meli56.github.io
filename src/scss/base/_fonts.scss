@@ -1,20 +1,15 @@
-@use "../utils/mixins";
+@mixin font-poppins($weight, $path) {
+  @font-face {
+    font-family: "Poppins";
+    src: url($path) format("truetype");
+    font-weight: $weight;
+  }
+}
 
-@include mixins.font-face("Mont", '../../../public/fonts/mont-heavy.subset', 800, normal, woff2, "U+20-22,U+26,U+27,U+2C-2F,U+3A,U+3F,U+42-49,U+4C-50,U+52-54,U+56,U+57,U+59,U+61-7A,U+BF,U+E0,U+E1,U+E8,U+E9,U+ED,U+F3,U+F9,U+FA,U+2019");
-@include mixins.font-face("Mont", '../../../public/fonts/mont-bold.subset', 700, normal, woff2, "U+20-22,U+26,U+27,U+2C-2F,U+3A,U+3F,U+42-49,U+4C-50,U+52-54,U+56,U+57,U+59,U+61-7A,U+BF,U+E0,U+E1,U+E8,U+E9,U+ED,U+F3,U+F9,U+FA,U+2019");
-@include mixins.font-face("Mont", '../../../public/fonts/mont-regular.subset', 400, normal, woff2, "U+20-22,U+26,U+27,U+2C-2F,U+3A,U+3F,U+42-49,U+4C-50,U+52-54,U+56,U+57,U+59,U+61-7A,U+BF,U+E0,U+E1,U+E8,U+E9,U+ED,U+F3,U+F9,U+FA,U+2019");
-
-@include mixins.font-face("Inter", '../../../public/fonts/inter-bold.subset', 700, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-@include mixins.font-face("Inter", '../../../public/fonts/inter-semibold.subset', 600, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-@include mixins.font-face("Inter", '../../../public/fonts/inter-medium.subset', 500, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-@include mixins.font-face("Inter", '../../../public/fonts/inter-regular.subset', 400, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-@include mixins.font-face("Inter", '../../../public/fonts/inter-light.subset', 300, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-
-
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-Bold.subset', 700, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-SemiBold.subset', 600, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-Medium.subset', 500, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-Regular.subset', 400, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-Light.subset', 300, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-ExtraLight.subset', 200, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
-// @include mixins.font-face("Poppins", '../../assets/fonts/Poppins-Thin.subset', 100, normal, woff2, "U+9,U+A,U+20-22,U+25-29,U+2B-35,U+37-3A,U+3F,U+41-57,U+59,U+5A,U+61-7A,U+A9,U+BF,U+C7,U+C9,U+DA,U+E0-E2,U+E7-EA,U+ED,U+F1,U+F3,U+F4,U+F9-FB,U+2019,U+201C,U+201D,U+2026,U+20AC,U+2192");
+@include font-poppins(700, "/src/assets/fonts/Poppins-Bold.ttf");
+@include font-poppins(600, "/src/assets/fonts/Poppins-SemiBold.ttf");
+@include font-poppins(500, "/src/assets/fonts/Poppins-Medium.ttf");
+@include font-poppins(400, "/src/assets/fonts/Poppins-Regular.ttf");
+@include font-poppins(300, "/src/assets/fonts/Poppins-Light.ttf");
+@include font-poppins(200, "/src/assets/fonts/Poppins-ExtraLight.ttf");
+@include font-poppins(100, "/src/assets/fonts/Poppins-Thin.ttf");
