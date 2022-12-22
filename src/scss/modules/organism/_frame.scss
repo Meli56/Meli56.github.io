@@ -19,7 +19,7 @@ body{
 
 .content{
   display: flex;
-  margin: 0 160px 200px;
+  margin: 60px 200px;
 
 }
 
@@ -73,7 +73,7 @@ h6{
 .content2{
   display: flex;
   flex-direction: column;
-  margin: 0 160px 200px;
+  margin: 160px 200px;
   justify-content: center;
 }
 
@@ -81,7 +81,7 @@ h6{
   display: flex;
   flex-direction: row;
   gap:80px;
-  padding:  99px 160px;
+  padding:  99px 200px;
   justify-content: center;
 }
 
@@ -145,7 +145,7 @@ h6{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 160px;
+  padding: 100px 200px;
   gap: 10px;
 
   background: #FE9602;
@@ -187,7 +187,7 @@ h6{
 .content6{
   display: flex;
   flex-direction: column;
-  padding: 100px 160px;
+  padding: 100px 200px;
   justify-content: center;
   gap: 60px;
   background: #F9F9FD;
