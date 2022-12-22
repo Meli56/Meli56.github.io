@@ -83,7 +83,6 @@ h6{
   gap:80px;
   padding:  99px 160px;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 
@@ -93,10 +92,12 @@ h6{
 }
 
 
+.sect3-global{
+  display: flex;
+  gap:40px;
+}
 
 .sect3-1{
-  width: 580px;
-  height: 690px;
   display: flex;
   gap:40px;
   flex-wrap: wrap;
@@ -110,10 +111,24 @@ h6{
   align-items: flex-start;
   padding: 0px;
   gap: 35px;
-
-  width: 460px;
-  height: 702px;
 }
+
+.sect3-3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+}
+
+.card1{
+  margin-top:56px;
+}
+
+.card4{
+  margin-bottom:56px;
+}
+
 .sect-card{
   display: flex;
   flex-direction: row;
@@ -359,7 +374,14 @@ h6{
     padding: 120px 60px;
   }   
   .content6{
-    padding: 100px 80px;
+    padding: 100px 60px;
+  }
+  .content3{
+    padding: 100px 60px;
+    flex-wrap: wrap;
+  }
+  .sect3-1{
+    flex-wrap: nowrap;
   }
 
 }
@@ -373,11 +395,14 @@ h6{
     padding: 120px 60px;
   } 
   .content6{
-    padding: 100px 80px;
+    padding: 100px 60px;
   }
 
   .sect-card{
     justify-content: center;
+  }
+  .content3{
+    flex-wrap: wrap;
   }
 }
 
@@ -391,9 +416,28 @@ h6{
   .content6{
     padding: 100px 24px;
   }
+  .content3{
+    padding: 100px 24px;
+  }
   .card-testimonial {
     width: auto;
     height:auto;
+  }
+  .sect3-global{
+    flex-wrap: wrap;
+  }
+
+  .sect3-1{
+    justify-content: center;
+
+  }
+
+  .card1{
+    margin-top:0px;
+  }
+
+  .card4{
+    margin-top:0px;
   }
 }
 
@@ -427,8 +471,8 @@ h6{
 
 @media (max-width: 800px){
   .card{
-    width: 100%;
-    height: 1000px;
+    width: auto;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
