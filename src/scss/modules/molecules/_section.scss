@@ -305,6 +305,71 @@ $orange:#FF6800;
   color:#fff;
 }
 
+.card-testimonial h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+
+  color: #111029;
+}
+
+.card-testimonial p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ABAFC7;
+
+
+}
+
+.cadre7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px 80px;
+  gap: 32px;
+
+  /* Color/secondary 3 */
+  background: #FFCC00;
+  border-radius: 20px;
+}
+
+.sect7-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.sect7-title p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.sect7-title h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+
+
 @media (max-width: 800px){
   .sect1-1{
     display: flex;

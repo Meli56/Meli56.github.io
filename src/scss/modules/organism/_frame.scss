@@ -13,6 +13,7 @@ body{
   line-height: 32px;
   /* Text/Grey */
   color: #6B6B6B;
+  overflow-x: hidden;
 
 }
 
@@ -232,23 +233,34 @@ h6{
 
 .card-1:hover .card{
   background-color: $marin-blue;
+  box-shadow: -10px 30px 70px rgba(76, 64, 247, 0.5);
 }
 
 .card-2:hover .card{
   background-color: $pink;
+  box-shadow: -10px 30px 70px rgba(255, 45, 89, 0.5);
+
 }
 
 .card-3:hover .card{
   background-color: $green;
+  box-shadow: -10px 30px 70px rgba(74, 219, 97, 0.5);
+
 }
 .card-4:hover .card{
   background-color: $yellow;
+  box-shadow: -10px 30px 70px rgba(255, 204, 0, 0.5);
+
 }
 .card-5:hover .card{
   background-color: $blue;
+  box-shadow: -10px 30px 70px rgba(0, 123, 255, 0.5);
+
 }
 .card-6:hover .card{
   background-color: $orange;
+  box-shadow: -10px 30px 70px rgba(255, 104, 0, 0.5);
+
 }
 
 .card:hover .card-fleche{
@@ -298,6 +310,12 @@ h6{
 
 }
 
+.global-card{
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+  align-items: center;
+}
 
 .card-testimonial {
   display: flex;
@@ -306,17 +324,26 @@ h6{
   align-items: center;
   padding: 90px 32px 44px;
   gap: 24px;
-
   width: 352px;
   height: 357.31px;
-
+  text-align: center;
 
   background: #FFFFFF;
-  box-shadow: -15px 20px 70px rgba(76, 64, 247, 0.2);
   border-radius: 20px;
+  margin-top: -60px;
 }
 
 
+
+
+.global-card:hover .card-testimonial{
+  box-shadow: -15px 20px 70px rgba(76, 64, 247, 0.2);
+}
+
+
+.content7{
+  padding: 160px 200px;
+}
 
 @media (max-width: 800px){
   .card{
