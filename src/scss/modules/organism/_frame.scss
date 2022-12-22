@@ -365,7 +365,7 @@ h6{
 }
 
 
-@media (max-width:1024px) {
+@media only screen and (max-width:1024px) {
   body{
       background-color: yellow;
   }
@@ -381,7 +381,7 @@ h6{
   }
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
   body{
       background-color: blue;
   }

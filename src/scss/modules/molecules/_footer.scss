@@ -499,7 +499,7 @@
     }
     
     .footer h6{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
     }
     
@@ -562,7 +562,7 @@
         }
     
     .footer-title p{
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
     }
     
@@ -582,6 +582,7 @@
         font-size: 18px;
         line-height: 32px;
         width: 280px;
+
     }
     
     .content-footer {
@@ -594,7 +595,6 @@
     .col1{
         gap: 32px;
         flex-grow: none;
-        padding: 0 60px;
     }
     
     .footer p{
@@ -608,14 +608,13 @@
     .col2{
         gap: 32px;
         flex-grow: none;  
-        padding: 0 60px;
     }
     .col2 img{
         width:300px;
     }
     
     .footer h6{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
         color: #FFFFFF;
     }
@@ -623,7 +622,6 @@
     .col3{
         gap: 32px;
         flex-grow: none;  
-        padding: 0 60px;
     }
     
     .text-col3{
@@ -659,7 +657,7 @@
         gap: 10px;
     }
 }
-@media (max-width:1024px) {
+@media (max-width:320px) {
 
     .footer{
         padding: 0px 24px;
@@ -677,7 +675,7 @@
         }
     
     .footer-title p{
-        font-size: 20px;
+        font-size: 14px;
         line-height: 24px;
         text-align: center;
     }
@@ -697,6 +695,8 @@
         border-radius: 11px;
         font-size: 18px;
         line-height: 32px;
+        width: 250px;
+
     }
     
     .content-footer {
@@ -709,11 +709,10 @@
     .col1{
         gap: 32px;
         flex-grow: none;
-        padding: 0 60px;
     }
     
     .footer p{
-        font-size: 20px;
+        font-size: 14px;
         line-height: 24px;
         color: #FFFFFF;
         mix-blend-mode: normal;
@@ -723,14 +722,13 @@
     .col2{
         gap: 32px;
         flex-grow: none;  
-        padding: 0 60px;
     }
     .col2 img{
-        width:800px;
+        width: 300px;
     }
     
     .footer h6{
-        font-size: 26px;
+        font-size: 20px;
         line-height: 28px;
         color: #FFFFFF;
     }
@@ -738,7 +736,6 @@
     .col3{
         gap: 32px;
         flex-grow: none;  
-        padding: 0 60px;
     }
     
     .text-col3{
@@ -755,7 +752,7 @@
     }
     
     .footer-copy {    
-        font-size: 20px;
+        font-size: 14px;
         line-height: 24px;
         text-align: center;
     }
@@ -766,7 +763,7 @@
     }
     
     .footer-nav a{
-        font-size: 20px;
+        font-size: 14px;
         line-height: 24px;
     }
     
