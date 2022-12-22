@@ -367,9 +367,9 @@ h6{
 
 
 @media (min-width: 1024px) and (max-width: 1440px)  {
-  body{
-      background-color: rgb(255, 0, 247);
-  }
+  // body{
+  //     background-color: rgb(255, 0, 247);
+  // }
   .content7{
     padding: 120px 60px;
   }   
@@ -388,9 +388,9 @@ h6{
 
 
 @media only screen and (max-width:1024px) {
-  body{
-      background-color: yellow;
-  }
+  // body{
+  //     background-color: yellow;
+  // }
   .content7{
     padding: 120px 60px;
   } 
@@ -407,9 +407,9 @@ h6{
 }
 
 @media only screen and (max-width:768px) {
-  body{
-      background-color: blue;
-  }
+  // body{
+  //     background-color: blue;
+  // }
   .content7{
     padding: 120px 24px;
   } 
@@ -418,6 +418,12 @@ h6{
   }
   .content3{
     padding: 100px 24px;
+  }
+  .content4{
+    padding: 100px 24px;
+  }
+  .content5{
+    margin: 100px 24px;
   }
   .card-testimonial {
     width: auto;
@@ -439,15 +445,26 @@ h6{
   .card4{
     margin-top:0px;
   }
+
+  .sect4-text{
+    font-size: 20px;
+  }
 }
 
 @media (max-width:320px) {
-  body{
-      background-color: red;
-  }
+  // body{
+  //     background-color: red;
+  // }
   .content7{
       padding: 120px 24px;
   } 
+
+  .content4{
+    padding: 100px 24px;
+  }
+  .content5{
+    margin: 100px 24px;
+  }
   h3{
     font-size: 20px;
     line-height: 28px;
