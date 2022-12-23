@@ -95,18 +95,8 @@
   color: #6B6B6B;
 }
 
-.nav-text:hover{
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  text-decoration: none;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
+.nav-text:hover,
+.nav-text:focus {
   color: #4C40F7;
 }
 
