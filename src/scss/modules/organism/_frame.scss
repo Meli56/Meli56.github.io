@@ -157,7 +157,7 @@ h6{
   align-items: center;
   flex-direction: column;;
   gap:44px;
-  width: 723px;
+  max-width: 723px;
 }
 
 .courbes{
@@ -228,8 +228,8 @@ h6{
   }
 }
 .card {
-  width: 352px;
-  height: 458px;
+  max-width: 352px;
+  max-height: 458px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -340,8 +340,8 @@ h6{
   align-items: center;
   padding: 90px 32px 44px;
   gap: 24px;
-  width: 352px;
-  height: 357.31px;
+  max-width: 352px;
+  max-height: 357.31px;
   text-align: center;
   background: #FFFFFF;
   border-radius: 20px;
