@@ -435,6 +435,19 @@ $orange:#FF6800;
     margin: 24px auto;
 
   }
+  .title-h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+
+    /* or 140% */
+    text-align: center;
+
+    /* Text/Dark */
+    color: #111029;
+  }
 }
 
 @media (max-width:320px) {
@@ -463,5 +476,14 @@ $orange:#FF6800;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 24px auto;
 
+  }
+  .title-h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #111029;
   }
 }
