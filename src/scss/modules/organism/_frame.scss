@@ -382,6 +382,9 @@ h6{
   align-items: center;
 }
 
+.img-work{
+  width: 100%;
+}
 
 
 
@@ -395,6 +398,9 @@ h6{
   }   
   .content6{
     padding: 100px 60px;
+  }
+  .content8{
+    margin: 100px 60px;
   }
   .content3{
     padding: 100px 60px;
@@ -416,6 +422,9 @@ h6{
   } 
   .content6{
     padding: 100px 60px;
+  }
+  .content8{
+    margin: 100px 60px;
   }
 
   .sect-card{
@@ -453,6 +462,9 @@ h6{
   .content5{
     margin: 100px 24px;
   }
+  .content8{
+    margin: 100px 24px;
+  }
   .card-testimonial {
     width: auto;
     height:auto;
@@ -477,6 +489,8 @@ h6{
   .sect4-text{
     font-size: 20px;
   }
+
+
 }
 
 @media (max-width:320px) {
@@ -491,6 +505,9 @@ h6{
     padding: 100px 24px;
   }
   .content5{
+    margin: 100px 24px;
+  }
+  .content8{
     margin: 100px 24px;
   }
   h3{
@@ -510,6 +527,8 @@ h6{
   .sect2-title{
     margin-bottom: 0px;
   }
+
+
 }
 
 
