@@ -498,18 +498,66 @@ $orange:#FF6800;
   width: 300px;
   height: 4px;
   background: #FFFFFF;
-
-
 }
+
+
+.cadre-img{
+  display: flex;
+}
+
 @media (min-width:1440px) {
 
 }
-
 
 @media (min-width: 1024px) and (max-width: 1440px)  {
   // body{
   //     background-color: rgb(255, 0, 247);
   // }
+
+
+  .cadre-work2 img {
+    max-width: 300px;
+  }
+
+
+  .cadre-work1 img {
+    max-width: 700px;
+  }
+
+  .cadre-work4 img {
+    max-width: 300px;
+  }
+
+  .cadre-work3 img {
+    max-width: 700px;
+  }
+
+
+  .cadre-work6 img {
+    max-width: 300px;
+  }
+
+
+  .cadre-work5 img {
+    max-width: 700px;
+  }
+
+  .text-cadre{
+    width: 160px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 60px;
+    gap: 32px;
+    align-self: center;
+  }
+
+  .rectangle-trait{
+    width: 160px;
+    height: 2px;
+    background: #FFFFFF;
+  }
 
 }
 
@@ -526,6 +574,45 @@ $orange:#FF6800;
     letter-spacing: -0.1px;
     color: #111029;
     margin: 24px auto;
+  }
+
+
+  .cadre-work2 img {
+    max-width: 200px;
+  }
+
+
+  .cadre-work1 img {
+    max-width: 500px;
+  }
+
+  .cadre-work4 img {
+    max-width: 200px;
+  }
+
+
+  .cadre-work3 img {
+    max-width: 500px;
+  }
+
+  .cadre-work6 img {
+    max-width: 200px;
+  }
+
+  .cadre-work5 img {
+    max-width: 500px;
+  }
+
+  .text-cadre{
+    max-width: 100px;
+    max-height: 186px;
+
+  }
+
+  .rectangle-trait{
+    max-width: 160px;
+    height: 2px;
+    background: #FFFFFF;
   }
 
 }
@@ -571,6 +658,61 @@ $orange:#FF6800;
     /* Text/Dark */
     color: #111029;
   }
+
+  .cadre-work1{
+    flex-direction: column;
+  }
+
+  .cadre-work2{
+    flex-direction: column;
+  }
+
+  .cadre-work3{
+    flex-direction: column;
+  }
+
+  .cadre-work4{
+    flex-direction: column;
+  }
+
+  .cadre-work5{
+    flex-direction: column;
+  }
+  .cadre-work6{
+    flex-direction: column;
+  }
+  .text-cadre{
+    max-width: 100%;
+    max-height: 97px;
+  }
+
+  .cadre-work2 img {
+    max-width: 180px;
+  }
+
+
+  .cadre-work1 img {
+    max-width: 295px;
+  }
+
+  .cadre-work4 img {
+    max-width: 180px;
+  }
+
+
+  .cadre-work3 img {
+    max-width: 295px;
+  }
+
+  .cadre-work6 img {
+    max-width: 180px;
+  }
+
+  .cadre-work5 img {
+    max-width: 295px;
+  }
+
+
 }
 
 @media (max-width:320px) {
