@@ -392,6 +392,17 @@ $orange:#FF6800;
 .cadre-work1 img {
   filter: drop-shadow(-20px -20px 100px rgba(23, 13, 166, 0.5));
 }
+.cadre-work2{
+  display: flex;
+  flex-direction: row;
+  background: #FFCC00;
+  border-radius: 28px;
+}
+
+.cadre-work2 img {
+  filter: drop-shadow(-20px -20px 100px rgba(23, 13, 166, 0.5));
+  padding-top: 83px;
+}
 
 
 .cadre-work3{
@@ -408,6 +419,17 @@ $orange:#FF6800;
   filter: drop-shadow(-20px -20px 100px rgba(161, 16, 46, 0.5));
 }
 
+.cadre-work4{
+  display: flex;
+  flex-direction: row;
+  background: #007BFF;
+  border-radius: 28px;
+}
+
+.cadre-work4 img {
+  filter: drop-shadow(-20px -20px 100px rgba(23, 13, 166, 0.5));
+  padding-top: 83px;
+}
 
 .cadre-work5{
   display: flex;
@@ -423,6 +445,18 @@ $orange:#FF6800;
   filter: drop-shadow(-20px -20px 100px rgba(23, 13, 166, 0.5));
 }
 
+.cadre-work6{
+  display: flex;
+  flex-direction: row;
+  background: #5CC8FC;
+  border-radius: 28px;
+}
+
+.cadre-work6 img {
+  filter: drop-shadow(-20px -20px 100px rgba(23, 13, 166, 0.5));
+  padding-top: 83px;
+}
+
 
 .text-cadre{
   max-width: 400px;
@@ -432,6 +466,8 @@ $orange:#FF6800;
   align-items: flex-start;
   padding: 0px 60px;
   gap: 32px;
+  align-self: center;
+
 
 }
 
