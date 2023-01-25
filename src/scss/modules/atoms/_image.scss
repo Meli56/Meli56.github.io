@@ -26,6 +26,7 @@
     z-index: 0;
     right: 57.61px;
     top:134.58px;
+    display: none;
 
   }
 
@@ -34,19 +35,19 @@
     z-index: 1;
     right: 319.65px;
     top: 227.63px;
-
+    display: none;
   }
 
   .img-3{
     z-index: 3;
     position: relative;
     top: 71px;
-
+    display: none;
   }
 }
 
 
-@media (max-width:800px) {
+@media (max-width:600px) {
 
   .img-1{
     position: absolute;
@@ -54,6 +55,8 @@
     right: 7px;
     top: 113.58px;
     width: 320px;
+    display: unset;
+
   }
 
   .img-2{
@@ -62,6 +65,8 @@
     left: 7px;
     top: 137.63px;
     width: 300px;
+    display: unset;
+
   }
 
   .img-3{
@@ -70,6 +75,8 @@
     top: 40px;
     width:300px;
     align-self: center;
+    display: unset;
+
   }
 
 }
