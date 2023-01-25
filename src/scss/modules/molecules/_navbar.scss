@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 160px;
+  padding: 32px 200px;
   gap: 85px;
 
 
@@ -109,7 +109,17 @@
 .navbar-mobile{
   display: none;
 }
-
+@media (max-width: 1024px) {
+  .navbar {
+    display: flex;
+    height: 120px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 16px;
+    gap: 60px;
+  }
+}
 @media (max-width: 720px) {
   .navbar {
     display: none !important;
