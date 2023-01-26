@@ -505,6 +505,13 @@ $orange:#FF6800;
   display: flex;
 }
 
+
+.img-left{
+  margin-left: 175px;
+}
+.img-right{
+  margin-right: 82px;
+}
 @media (min-width:1440px) {
 
 }
@@ -578,41 +585,59 @@ $orange:#FF6800;
 
 
   .cadre-work2 img {
-    max-width: 200px;
+    max-width: 175px;
   }
 
 
   .cadre-work1 img {
-    max-width: 500px;
+    max-width: 465px;
+    padding-top: 25px;
   }
 
   .cadre-work4 img {
-    max-width: 200px;
+    max-width: 175px;
   }
 
 
   .cadre-work3 img {
-    max-width: 500px;
+    max-width: 465px;
+    padding-top: 25px;
   }
 
   .cadre-work6 img {
-    max-width: 200px;
+    max-width: 175px;
   }
 
   .cadre-work5 img {
-    max-width: 500px;
+    max-width: 465px;
+    padding-top: 25px;
   }
 
   .text-cadre{
     max-width: 100px;
-    max-height: 186px;
+
+  }
+  .text-cadre h3{
+    font-size: 38px;
+    line-height: 56px;
+
+  }
+
+  .text-cadre h5{
+    font-size: 22px;
+    line-height: 32px;
 
   }
 
   .rectangle-trait{
-    max-width: 160px;
-    height: 2px;
-    background: #FFFFFF;
+    display: none;
+  }
+
+  .img-left{
+    margin-left: 130px;
+  }
+  .img-right{
+    margin-right: 45px;
   }
 
 }
@@ -661,6 +686,7 @@ $orange:#FF6800;
 
   .cadre-work1{
     flex-direction: column;
+    gap: 40px;
   }
 
   .cadre-work2{
@@ -669,6 +695,7 @@ $orange:#FF6800;
 
   .cadre-work3{
     flex-direction: column;
+    gap: 40px;
   }
 
   .cadre-work4{
@@ -677,6 +704,8 @@ $orange:#FF6800;
 
   .cadre-work5{
     flex-direction: column;
+    gap: 40px;
+
   }
   .cadre-work6{
     flex-direction: column;
@@ -686,32 +715,65 @@ $orange:#FF6800;
     max-height: 97px;
   }
 
+  .img-left{
+    margin-left: 30px;
+  }
+  .img-right{
+    margin-right: 30px;
+  }
+  .rectangle-trait{
+    display: none;
+  }
+
   .cadre-work2 img {
-    max-width: 180px;
+    max-width: 115px;
   }
 
 
   .cadre-work1 img {
     max-width: 295px;
+    padding-top: 0;
   }
 
   .cadre-work4 img {
-    max-width: 180px;
+    max-width: 115px;
   }
 
 
   .cadre-work3 img {
     max-width: 295px;
+    padding-top: 0;
+
   }
 
   .cadre-work6 img {
-    max-width: 180px;
+    max-width: 115px;
   }
 
   .cadre-work5 img {
     max-width: 295px;
+    padding-top: 0;
+
   }
 
+
+  .text-cadre{
+    max-width: 365px;
+    gap: 32px;
+    padding: 25px 60px 0px;
+
+  }
+
+  .text-cadre h3{
+    font-size: 24px;
+    line-height: 32px;
+
+  }
+
+  .text-cadre h5{
+    font-size: 14px;
+    line-height: 24px;
+  }
 
 }
 
