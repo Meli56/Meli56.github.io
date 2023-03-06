@@ -101,7 +101,19 @@
 .nav-text:active {
   color: #4C40F7;
 }
+.nav-text-acti{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4C40F7;
+}
 .nav{
   display: flex;
   gap: 81.5px;

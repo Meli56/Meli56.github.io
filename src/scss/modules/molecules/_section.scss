@@ -526,7 +526,83 @@ $orange:#FF6800;
   color: #111029;
 }
 
+.cadre-titre-about img {
+  position: relative;
 
+}
+.circle1{
+  align-self: flex-start;
+}
+.cube{
+  align-self: flex-end;
+}
+
+.pres-people{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  flex-wrap: wrap;
+
+}
+
+.frame-people{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 28px;
+
+
+  background: #FFFFFF;
+  box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
+  border-radius: 12px;
+
+}
+
+.frame-people img{
+  border-radius: 12px;
+}
+
+.text-people{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+.text-people h5{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #111029;
+}
+
+.text-people p{
+  text-align: center;
+
+}
+
+.galerie-photo{
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.col-photo{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
 @media (min-width:1440px) {
 
@@ -790,7 +866,13 @@ $orange:#FF6800;
     font-size: 14px;
     line-height: 24px;
   }
-
+  .frame-people img {
+    border-radius: 12px;
+    max-width: 300px;
+  }
+  .col-photo img{
+    max-width: 300px;
+  }
 }
 
 @media (max-width:320px) {
@@ -828,5 +910,9 @@ $orange:#FF6800;
     line-height: 28px;
     text-align: center;
     color: #111029;
+  }
+  .frame-people img {
+    border-radius: 12px;
+    max-width: 300px;
   }
 }
