@@ -17,7 +17,6 @@
 
 .ellipse{
   background: #4C40F7;
-  box-shadow: -5px 10px 30px rgba(76, 64, 247, 0.5);
   border-radius: 15px;
   width: 48px;
   height: 48px;
@@ -25,6 +24,9 @@
   display: flex;
   align-items: center;
   z-index: 10;
+}
+.ellipse:hover{
+  box-shadow: -5px 10px 30px rgba(76, 64, 247, 0.5);
 }
 
 .btn-contact{
