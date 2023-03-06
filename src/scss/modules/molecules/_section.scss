@@ -604,6 +604,84 @@ $orange:#FF6800;
   gap: 30px;
 }
 
+.frame-contact-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 50%;
+}
+
+.frame-contact-1 input, textarea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 28px;
+  gap: 10px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid #4C40F7;
+  box-shadow: 0px 8px 24px rgba(204, 204, 204, 0.5);
+  border-radius: 11px;
+  resize: none;
+}
+
+.frame-contact-2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+}
+
+.reseau{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 60px;
+  gap: 20px;
+
+  background: #FFFFFF;
+  box-shadow: -8px 12px 50px rgba(236, 236, 236, 0.5);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.reseau:hover{
+  box-shadow: -20px 20px 60px rgba(76, 64, 247, 0.25);
+  border-radius: 20px;
+}
+
+.text-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+.text-contact h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: -0.5px;
+  color: #111029;
+}
+.info-contact{
+  display: flex;
+  gap: 24px;
+}
+.info-contact img{
+  width: 32px;
+  height: 32px;
+}
+
+
+
 @media (min-width:1440px) {
 
 }
