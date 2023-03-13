@@ -379,13 +379,13 @@ $orange:#FF6800;
   margin:60px 115px;
 }
 
-
+.content9 a{
+  max-width: 1120px;
+}
 .cadre-work1{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 60px;
-
   background: #4C40F7;
   border-radius: 28px;
 }
@@ -418,8 +418,6 @@ $orange:#FF6800;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 60px;
-
   background: #FF2D59;
   border-radius: 28px;
 }
@@ -451,8 +449,6 @@ $orange:#FF6800;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 60px;
-
   background: #00113B;
   border-radius: 28px;
 }
@@ -487,7 +483,7 @@ $orange:#FF6800;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 60px;
+  padding-left: 60px;
   gap: 32px;
   align-self: center;
 
@@ -530,7 +526,7 @@ $orange:#FF6800;
 
 
 .img-left{
-  margin-left: 175px;
+  margin-left: 85px;
 }
 .img-right{
   margin-right: 82px;
@@ -568,7 +564,7 @@ $orange:#FF6800;
   padding: 0px;
   gap: 32px;
   flex-wrap: wrap;
-
+  max-width: 1120px;
 }
 
 .frame-people{
