@@ -596,7 +596,7 @@ $orange:#FF6800;
   gap: 32px;
   flex-wrap: wrap;
   justify-content: center;
-
+  padding-bottom: 60px;
 }
 .col-photo{
   display: flex;
@@ -645,12 +645,12 @@ $orange:#FF6800;
   align-items: center;
   padding: 32px 60px;
   gap: 20px;
-
   background: #FFFFFF;
   box-shadow: -8px 12px 50px rgba(236, 236, 236, 0.5);
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  color: #6b6b6b;
 }
 
 .reseau:hover{
