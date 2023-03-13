@@ -378,11 +378,20 @@ h6{
   align-items: center;
 }
 
+.content8b{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 160px;
+  gap: 10px;
+}
+
 .content9{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 200px 160px;
+  padding: 100px 160px;
   gap: 60px;
 
 
