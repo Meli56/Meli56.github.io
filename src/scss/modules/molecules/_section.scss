@@ -10,7 +10,7 @@ $orange:#FF6800;
   display: flex;
   justify-content:  center;
   gap: 24px;
-  max-width: 675px;
+  max-width: 570px;
 
 }
 
@@ -128,10 +128,9 @@ $orange:#FF6800;
   background: #FFFFFF;
   justify-content: space-between;
   padding:32px;
-
   border: 1px solid #D8D8D8;
   border-radius: 8px;
-
+  gap: 38px;
 }
 .question2{
   display: flex;
@@ -705,8 +704,16 @@ $orange:#FF6800;
 
 
 
-@media (min-width:1440px) {
-
+@media (max-width:1374px) {
+  .sect1-1{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content:  center;
+    gap: 24px;
+    max-width: 100%;
+  
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px)  {

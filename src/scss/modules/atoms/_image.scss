@@ -9,21 +9,21 @@
 .img-2{
   position: absolute;
   z-index: 1;
-  right: 319.65px;
+  right: 261.65px;
   top: 227.63px;
 
 }
 
 .img-3{
   z-index: 3;
-  position: relative;
-  top: 12px;
-  left: 160px;
+  position: absolute;
+  top: 172px;
+  right: 160px;
 }
 
-@media (max-width:1280px) {
+@media (max-width:1374px) {
   .img-1{
-    position: absolute;
+    position: relative;
     z-index: 0;
     right: 57.61px;
     top:134.58px;
@@ -32,7 +32,7 @@
   }
 
   .img-2{
-    position: absolute;
+    position: relative;
     z-index: 1;
     right: 319.65px;
     top: 227.63px;
