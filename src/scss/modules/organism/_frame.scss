@@ -24,9 +24,12 @@ a{
 .content{
   display: flex;
   margin: 60px 200px;
-  max-width: 1120px;
+  justify-content: center;
 }
 
+.contentb{
+  display: flex;
+}
 
 h2{
 
@@ -233,6 +236,9 @@ h6{
     margin: 0;
     padding:0 24px 100px 24px;
     gap: 100px;
+  }
+  .contentb{
+    flex-direction: column-reverse;
   }
 
   .content2{
@@ -520,6 +526,7 @@ h6{
 
   .sect-card{
     justify-content: center;
+    gap: 75px;
   }
   .content3{
     flex-wrap: wrap;
@@ -561,7 +568,7 @@ h6{
     padding: 100px 24px;
   }
   .content3{
-    padding: 100px 24px;
+    margin: 100px 24px;
   }
   .content4{
     padding: 100px 24px;
@@ -675,7 +682,7 @@ h6{
   
   }
   .sect2-title{
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
 
 
@@ -693,7 +700,7 @@ h6{
     justify-content: center;
     align-items: center;
     padding: 44px;
-    gap: 44px;
+    gap: 10px;
 
     background: #FFFFFF;
     box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);

@@ -844,7 +844,11 @@ $orange:#FF6800;
   }
 
 }
-
+@media (min-width:600px) and (max-width: 800px)  {
+  .sect1-1{
+    margin-top: 124px;
+  }
+}
 @media (max-width:768px) {
   // body{
   //     background-color: blue;
